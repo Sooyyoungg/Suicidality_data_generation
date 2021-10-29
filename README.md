@@ -4,11 +4,13 @@
   * concatenate all the children clinical data who have structural MRI or diffusion MRI or resting-state fMRI or 3 tasks fMRI data         
   * select clinical outcome columns
   * remove duplicated subjects information in terms of subject
-   outcome: SI/SA_total_clinical.csv  
+  * input: MRI table data
+  * output: SI/SA_total_clinical.csv  
    
 * Suicidality_making_control.ipynb
   * make new column whose name is "Health_control". It means whether subjects don't have any mental disorders.
-  * healty can be measured by ksad & CBCL total Prob score (all ksads = 0, ToProb.CBCL <= 65)
+  * healty can be measured by ksad & CBCL total Probability score (all ksads = 0, ToProb.CBCL <= 65)
+  * input: ABCD_phenotype_total - ABCD_phenotype_total.csv (containing ksad & CBCL information)
   * output: control_subjects.csv
   
 * Suicidality_clinical_outcome.ipynb
