@@ -1,4 +1,4 @@
-# Generate Suicidality Data
+# Generate Suicidality Data with phenotype & clinical outcomes
 ## Code
 * SI/SA_total_objects_for_all_mri.ipynb
   * concatenate all the children clinical data who have structural MRI or diffusion MRI or resting-state fMRI or 3 tasks fMRI data         
