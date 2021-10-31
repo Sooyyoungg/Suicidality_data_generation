@@ -14,9 +14,17 @@
   * output: control_subjects.csv
   
 * Suicidality_clinical_outcome.ipynb
-  * common subjects information between demo.total.csv file and data that I made
+  * concatenate Suicidalideation column and SuicideAttempt column into one dataframe.
+  * make Suicide_Control column and fill the values whether Suicidalideation and SuicideAttempt vales are 0.
+  * make Health_control column and fill the values using control_subjects.csv file values.
   * input: SI/SA_total_clinical.csv, control_subjects.csv
   * output: SI_SA_4_columns_and_clinical_outcome.csv
+
+* Suicidality_data_total_clinical+demo+covariate+intelligence.ipynb
+  * fine common subjects information between demo.total.csv file and data that I made
+  * merge ABCD total phenotype columns(demo.total.csv) and clinical outcome columns.
+  * input: demo.total.csv, SI_SA_4_columns_and_clinical_outcome.csv
+  * output: Suicidality_data_final2.csv
 
 ## Data
 * structural data : data_si_unppc_sMRI_train.csv + data_si_unppc_sMRI_test.csv
